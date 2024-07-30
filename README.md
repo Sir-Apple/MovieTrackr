@@ -1,1 +1,1 @@
-# WatchListApp
+# WatchMovieApp
