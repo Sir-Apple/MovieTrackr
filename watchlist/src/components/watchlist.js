@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const watchlist = () => {
+export const Watchlist = () => {
   return (
     <div>
         <h1>Watch List</h1>
