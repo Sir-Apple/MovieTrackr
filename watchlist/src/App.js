@@ -7,23 +7,27 @@ import { Addmovie } from './components/Addmovie';
 import './App.css';
 import './lib/font-awesome/css/all.min.css';
 
+import { GlobalProvider } from './context/GlobalState';
+
 function App() {
   return (
-    <Router>
-      <Header/>
+    <GlobalProvider>
+      <Router>
+        <Header/>
 
-      <Switch>
-        <Route exact path='/'>
-          <Watchlist/>
-        </Route>
-        <Route path='/Watched'>
-          <Watched/>
-        </Route>
-        <Route path='/Addmovie'>
-          <Addmovie/>
-        </Route>
-      </Switch>
-    </Router>
+        <Switch>
+          <Route exact path='/'>
+            <Watchlist/>
+          </Route>
+          <Route path='/Watched'>
+            <Watched/>
+          </Route>
+          <Route path='/Addmovie'>
+            <Addmovie/>
+          </Route>
+        </Switch>
+      </Router>
+    </GlobalProvider>
   )
 }
 
