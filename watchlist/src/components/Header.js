@@ -6,9 +6,9 @@ export const Header = () => {
     <header>
         <div className="container">
             <div className="inner-content">
-                <div className="brand">
+                {/* <div className="brand">
                     <Link to="/">Movie search</Link>
-                </div>
+                </div> */}
                 <ul className="nav-links">
                     <li>
                         <Link to="/">Watch List</Link>
