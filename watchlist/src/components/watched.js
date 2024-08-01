@@ -17,8 +17,9 @@ export const Watched = () => {
               <MovieCard movie={movie} type='watched'/>
             ))}
           </div>
-          ) : (
-            <h2 className='no-movies'>No movies</h2>
+          ) 
+          : (
+            <h2 className='no-movies'></h2>
           )}
           
         </div>
