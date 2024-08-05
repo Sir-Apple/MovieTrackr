@@ -17,13 +17,13 @@ function App() {
 
         <Switch>
           <Route exact path='/'>
-            <Watchlist/>
+            <Addmovie/>
           </Route>
           <Route path='/Watched'>
             <Watched/>
           </Route>
-          <Route path='/Addmovie'>
-            <Addmovie/>
+          <Route path='/Watchlist'>
+            <Watchlist/>
           </Route>
         </Switch>
       </Router>
