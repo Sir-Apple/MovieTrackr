@@ -6,9 +6,9 @@ export const Header = () => {
     <header>
         <div className="container">
             <div className="inner-content">
-                {/* <div className="brand">
-                    <Link to="/">Movie search</Link>
-                </div> */}
+                <div className="brand">
+                    <Link to="/">🎬 Home</Link>
+                </div>
                 <ul className="nav-links">
                     <li>
                         <Link to="/Watchlist">Watch List</Link>
@@ -16,9 +16,9 @@ export const Header = () => {
                     <li>
                         <Link to="/Watched">Watched</Link>
                     </li>
-                    <li>
+                    {/* <li>
                         <Link to="/" className="btn"><i class="fas fa-search"></i></Link>
-                    </li>
+                    </li> */}
                 </ul>
             </div>
         </div>

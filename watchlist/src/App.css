@@ -135,7 +135,8 @@ header .nav-links li:last-child {
   border-color: #50C878;
   box-shadow: 0 0 3px green;
   color: var(--white);
-  font-size: 1.25rem;
+  font-size: 1rem;
+  font-family: 'Orbitron', sans-serif;
 }
 
 .results {
