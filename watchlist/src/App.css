@@ -11,6 +11,7 @@ body {
   font-family: 'Orbitron', sans-serif;
   padding: 0;
   margin: 0;
+  background: #081215;
 }
 
 .container {
@@ -47,7 +48,7 @@ body {
 .btn {
   padding: 10px 15px;
   background-color: var(--secondary);
-  color: var(--primary);
+  color: #000;
   border-radius: 5px;
   text-transform: uppercase;
   font-weight: 700;
@@ -75,7 +76,8 @@ input:focus {
 
 /* Header Styles */
 header {
-  background-color: var(--primary);
+  background-color: #091b13;
+  box-shadow: 0 0 5px green;
 }
 
 header .inner-content {
@@ -127,10 +129,11 @@ header .nav-links li:last-child {
 
 .add-content .input-wrapper input {
   width: 100%;
-  background-color: var(--primary);
+  background-color: #091b13;
   padding: 10px;
   border-radius: 5px;
-  border: none;
+  border-color: #50C878;
+  box-shadow: 0 0 3px green;
   color: var(--white);
   font-size: 1.25rem;
 }
@@ -169,7 +172,7 @@ header .nav-links li:last-child {
 
 .result-card .info .title {
   font-size: 1.25rem;
-  color: var(--primary);
+  color: var(--secondary);
   font-weight: 600;
   margin: 0;
 }
@@ -177,7 +180,7 @@ header .nav-links li:last-child {
 .result-card .info .release-date {
   font-size: 1.25rem;
   font-weight: 300;
-  color: var(--primary);
+  color: var(--secondary);
   margin: 0;
 }
 
@@ -208,7 +211,7 @@ header .nav-links li:last-child {
 }
 
 .movie-page .heading {
-  color: var(--primary);
+  color: var(--secondary);
   margin: 0;
 }
 
