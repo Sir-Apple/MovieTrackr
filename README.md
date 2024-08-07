@@ -2,3 +2,8 @@
 
 ## Description
 This Search Movie App is made with ReactJS with the purpose of searching for movies fetched from TMDB. The user will be able to search for the movie they like then add to their watchlist or watchedlist.
+
+## Downloading and Testing
+
+1. Download the zipfile
+2. Run the project in the local host server with npm run start ()
