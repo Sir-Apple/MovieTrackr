@@ -6,4 +6,4 @@ This Search Movie App is made with ReactJS with the purpose of searching for mov
 ## Downloading and Testing
 
 1. Download the zipfile
-2. Run the project in the local host server with npm run start ()
+2. Run the project in the local host server with npm run start (https://github.com/Sir-Apple/SearchMovieApp/tree/main/watchlist)
