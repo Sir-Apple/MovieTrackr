@@ -32,11 +32,11 @@ export const ResultCards = ({movie}) => {
                 <div className='controls'>
                     <button className='btn'
                     disabled={watchlistDisabled}
-                    onClick={() => addMovieToWatchlist(movie)}>Add +</button>
+                    onClick={() => addMovieToWatchlist(movie)}>⭐ Save to Watchlist</button>
 
                     <button className='btn'
                     disabled={watchedDisabled}
-                    onClick={() => addMovieToWatched(movie)}>Add to watched</button>
+                    onClick={() => addMovieToWatched(movie)}>⭐ Save to Watched</button>
                 </div>
             </div>
         </div>
