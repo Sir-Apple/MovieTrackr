@@ -28,6 +28,7 @@ export const ResultCards = ({movie}) => {
                     <h4 className='release-date'>
                         {movie.release_date ? movie.release_date.substring(0, 4) : "-"}
                     </h4>
+                    <p className='overview'>{movie.overview}</p>
                 </div>
                 <div className='controls'>
                     <button className='btn'
@@ -37,6 +38,8 @@ export const ResultCards = ({movie}) => {
                     <button className='btn'
                     disabled={watchedDisabled}
                     onClick={() => addMovieToWatched(movie)}>⭐ Save to Watched</button>
+
+                    <button className='btn'>See more</button>
                 </div>
             </div>
         </div>
