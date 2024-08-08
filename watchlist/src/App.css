@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Yantramanav:wght@100;300;400;500;700;900&display=swap');
 
 :root {
   --primary: #032541;
@@ -8,7 +9,7 @@
 }
 
 body {
-  font-family: 'Orbitron', sans-serif;
+  font-family: 'Yantramanav', sans-serif;
   padding: 0;
   margin: 0;
   background: #081215;
