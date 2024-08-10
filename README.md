@@ -1,7 +1,14 @@
 # Search Movie App
+Technology used:
+- ReactJS
+- HTML
+- JavaScript
+- CSS
 
 ## Description
-This Search Movie App is made with ReactJS with the purpose of searching for movies and their details fetched from TMDB. The user will be able to search for the movie they like then add to their watchlist or watchedlist.
+This Search Movie App is made with ReactJS with the purpose of searching for movies and their details fetched from TMDB. 
+
+The user will be able to search for the movie they like then save to their watchlist or watchedlist.
 
 ## Downloading and Testing
 
