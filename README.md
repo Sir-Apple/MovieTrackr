@@ -10,6 +10,8 @@ This Search Movie App is made with ReactJS with the purpose of searching for mov
 
 The user will be able to search for the movie they like then save to their watchlist or watchedlist.
 
+My TMDB API Key is stored in my private repository: https://github.com/Sir-Apple/MyAPIKeys
+
 ## Downloading and Testing
 
 1. Download the zipfile
