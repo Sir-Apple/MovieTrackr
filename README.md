@@ -1,4 +1,4 @@
-# Search Movie App
+# Movie Trackr App
 Technology used:
 - ReactJS
 - HTML
