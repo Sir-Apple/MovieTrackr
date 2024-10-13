@@ -12,7 +12,7 @@ import { GlobalProvider } from './context/GlobalState';
 function App() {
   return (
     <GlobalProvider>
-      <Router>
+      <Router basename="/MovieTrackr">
         <Header/>
 
         <Switch>
