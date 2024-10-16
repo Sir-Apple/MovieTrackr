@@ -16,7 +16,7 @@ function App() {
         <Header/>
 
         <Switch>
-          <Route path='/'>
+          <Route exact path='/'>
             <Addmovie/>
           </Route>
           <Route path='/Watched'>
