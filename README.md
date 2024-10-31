@@ -16,3 +16,5 @@ The user will be able to search for the movie they like then save to their watch
 2. Get your TMDB API key from https://developer.themoviedb.org/reference/intro/getting-started, then insert your API key inside the fetch API Key in the Addmovie.js
 3. My TMDB API Key is stored in my private repository: https://github.com/Sir-Apple/MyAPIKeys
 4. Run the project in the local host server with npm run start (https://github.com/Sir-Apple/SearchMovieApp/tree/main/watchlist)
+
+View web live here: https://sir-apple.github.io/MovieTrackr/
